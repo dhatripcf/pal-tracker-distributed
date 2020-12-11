@@ -105,7 +105,6 @@ jobs:
   deploy-registration:
     needs:
       - build-and-publish
-      - deploy-registration
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
